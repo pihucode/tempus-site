@@ -4,44 +4,38 @@
     <div class="container-screenshots">
       <expandable-image
         class="screenshot"
+        :src="require('../assets/screenshot-2-12.jpg')"
+        alt="level 2-12"
+        :close-on-background-click="true"
+      />
+      <expandable-image
+        class="screenshot"
+        :src="require('../assets/screenshot-1-4.jpg')"
+        alt="level 2-12"
+        :close-on-background-click="true"
+      />
+      <expandable-image
+        class="screenshot"
+        :src="require('../assets/screenshot-3-9.jpg')"
+        alt="level 3-9"
+        :close-on-background-click="true"
+      />
+      <expandable-image
+        class="screenshot"
+        :src="require('../assets/screenshot-1-15.jpg')"
+        alt="level 1-15"
+        :close-on-background-click="true"
+      />
+      <expandable-image
+        class="screenshot"
+        :src="require('../assets/screenshot-2-15.jpg')"
+        alt="level 2-15"
+        :close-on-background-click="true"
+      />
+      <expandable-image
+        class="screenshot"
         :src="require('../assets/bg_past_lv_1.jpg')"
-        alt="dog"
-        title="dog"
-        :close-on-background-click="true"
-      />
-      <expandable-image
-        class="screenshot"
-        :src="require('../assets/bg_past_lv_2.jpg')"
-        alt="dog"
-        title="dog"
-        :close-on-background-click="true"
-      />
-      <expandable-image
-        class="screenshot"
-        :src="require('../assets/bg_present_lv_1.jpg')"
-        alt="dog"
-        title="dog"
-        :close-on-background-click="true"
-      />
-      <expandable-image
-        class="screenshot"
-        :src="require('../assets/bg_present_lv_2.jpg')"
-        alt="dog"
-        title="dog"
-        :close-on-background-click="true"
-      />
-      <expandable-image
-        class="screenshot"
-        :src="require('../assets/bg_present_lv_2.jpg')"
-        alt="dog"
-        title="dog"
-        :close-on-background-click="true"
-      />
-      <expandable-image
-        class="screenshot"
-        :src="require('../assets/bg_present_lv_2.jpg')"
-        alt="dog"
-        title="dog"
+        alt="level 1 past world background"
         :close-on-background-click="true"
       />
     </div>
@@ -67,7 +61,7 @@ export default {
   ); */
   background-color: rgba(255, 255, 255, 0.16);
   margin: 0 48px;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .container-screenshots {

@@ -29,8 +29,8 @@ export default {
 <style scoped>
 .about {
   /* width: 100vw; */
-  margin: 64px 0;
-  padding: 32px;
+  margin: 128px 0;
+  padding: 64px 32px;
   background: url("../assets/bg_about.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
