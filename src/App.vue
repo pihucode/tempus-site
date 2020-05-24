@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TitleView />
+    <About />
+    <Gallery />
+    <!-- <TeamSection /> -->
+    <TeamBlurb />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TitleView from "./components/TitleView.vue";
+import About from "./components/About.vue";
+import Gallery from "./components/Gallery.vue";
+// import TeamSection from "./components/TeamSection.vue";
+import TeamBlurb from "./components/TeamBlurb.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    TitleView,
+    About,
+    Gallery,
+    // TeamSection,
+    TeamBlurb,
+    Footer
   }
-}
+};
 </script>
 
 <style>
+body {
+  margin: 0 !important;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Gill Sans Ultra Bold", "Gill Sans", "Arial";
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  background-color: #002741;
 }
 </style>
