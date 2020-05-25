@@ -11,7 +11,7 @@
 
         <a
           class="btn"
-          href="https://github.com/clillianhong/tempus/releases/download/Showcase/mac_tempus.zip"
+          href="https://github.com/clillianhong/tempus/releases/download/Showcase/windows_tempus.zip"
           download="Tempus"
         >
           <img src="../assets/windows-brands.svg" class="icon" alt />Download for Windows
@@ -19,7 +19,7 @@
 
         <a
           class="btn"
-          href="https://github.com/clillianhong/tempus/releases/download/Showcase/windows_tempus.zip"
+          href="https://github.com/clillianhong/tempus/releases/download/Showcase/mac_tempus.zip"
           download="Tempus"
         >
           <img src="../assets/apple-brands.svg" class="icon" alt />Download for Mac
